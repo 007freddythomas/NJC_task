@@ -1,0 +1,23 @@
+mysql> create database mydetails;
+Query OK, 1 row affected (0.03 sec)
+
+mysql> use mydetails;
+Database changed
+
+mysql> create table users(name varchar(20),city varchar(20),state varchar(20));
+Query OK, 0 rows affected (0.35 sec)
+
+mysql> select * from users;
+Empty set (0.02 sec)
+
+
+
+
+mysql> mysql> select * from users;
++---------------+----------+--------+
+| name          | city     | state  |
++---------------+----------+--------+
+| Freddy Thomas | thirssur | kerala |
+| bro           | ekm      | kochi  |
++---------------+----------+--------+
+2 rows in set (0.00 sec)
